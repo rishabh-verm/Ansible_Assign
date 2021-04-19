@@ -1,0 +1,10 @@
+--- 
+ - name: Installing mysql apt package
+   apt: 
+    name: mysql-server
+    state: present
+    update_cache: yes
+   notify:
+   - Start mysql
+ 
+# tasks file for mysql

@@ -1,0 +1,6 @@
+---
+- name: Start mysql
+  ansible.builtin.service:
+    name: mysql
+    state: started
+# handlers file for mysql

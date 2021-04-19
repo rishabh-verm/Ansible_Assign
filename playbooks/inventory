@@ -1,0 +1,10 @@
+[aws]
+ec2-18-222-74-26.us-east-2.compute.amazonaws.com
+ec2-3-143-247-185.us-east-2.compute.amazonaws.com
+
+[aws:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/knoldus/Downloads/ubuntu2.pem
+
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/knoldus/Downloads/ubuntu3.pem
